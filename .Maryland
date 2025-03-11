@@ -1,0 +1,35 @@
+Un stack de desarrollo (también conocido como pila tecnológica) es el conjunto de tecnologías y herramientas que se utilizan para construir y desarrollar una aplicación o sitio web. Este stack incluye tanto el software del lado del servidor como el del cliente. Se puede dividir en varias capas o componentes, cada uno encargado de una función específica.
+Componentes principales de un stack de desarrollo:
+
+    Frontend (Cliente):
+        Lenguajes de programación: HTML, CSS, JavaScript.
+        Frameworks y bibliotecas: React, Angular, Vue.js.
+        Herramientas de diseño: Figma, Adobe XD.
+        El frontend es la parte de la aplicación con la que los usuarios interactúan directamente (interfaz de usuario).
+
+    Backend (Servidor):
+        Lenguajes de programación: Java, Python, Ruby, Node.js, PHP.
+        Frameworks: Express (Node.js), Django (Python), Ruby on Rails (Ruby).
+        Bases de datos: MySQL, PostgreSQL, MongoDB.
+        El backend maneja la lógica, las bases de datos y la interacción con el frontend.
+
+    Base de datos:
+        Se refiere al almacenamiento y gestión de los datos de la aplicación. Pueden ser relacionales (SQL) o no relacionales (NoSQL).
+        Ejemplos: MySQL, MongoDB, PostgreSQL.
+
+    Infraestructura:
+        Servidores: Apache, Nginx.
+        Plataformas de nube: AWS, Google Cloud, Azure.
+        Contenedores y orquestación: Docker, Kubernetes.
+
+    Herramientas de desarrollo y colaboración:
+        Control de versiones: Git, GitHub, GitLab.
+        Entornos de desarrollo: VS Code, WebStorm.
+        Automatización: CI/CD (Jenkins, Travis CI).
+
+Ejemplo de un stack de desarrollo popular:
+
+    Frontend: React + CSS + HTML.
+    Backend: Node.js con Express.
+    Base de datos: MongoDB (NoSQL).
+    Infraestructura: AWS para el despliegue y Docker para contenedores.
