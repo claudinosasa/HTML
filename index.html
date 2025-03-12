@@ -4,8 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienvenidos a la escuela</title>
+    <style>
+        /* Fondo con gradiente y animación */
+        body {
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(45deg, #f9c9d2, #a6e3e9, #d2c8f9, #f9e2a9);
+            background-size: 400% 400%;
+            animation: gradientAnimation 10s ease infinite;
+            font-family: Arial, sans-serif;
+            color: #fff;
+        }
+
+        /* Animación para el fondo */
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* Estilo para el contenido central */
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Bienvenidos a la escuela</h1>
+    <div class="content">
+        <h1>Bienvenidos a la escuela</h1>
+    </div>
 </body>
 </html>
+
